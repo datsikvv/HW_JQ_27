@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+button {
+    position: absolute;
+}
+
+#showAll {
+    right: 360px;
+    top: 50px;
+}
+
+#hideAll {
+    left: 360px;
+    top: 50px;
+}
+
+.top {
+    display: flex;
+    /* width: 300px; */
+}
+
+#middle{
+    display: flex;
+    width: 200px;
+}
+.middle{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+.green {
+    background-color: green;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.blue {
+    background-color: blue;
+}
+.red, .blue, .blueviolet, .green {
+    height: 50px;
+    width: 100px;
+}
+#one, #two, #three, #nine, .showT, .squareT, #endS, #twellwe  {
+    display: none;
+}
+#four {
+    margin-left: -400px;
+}
+#five {
+    margin-left: 1800px;
+}
+#six {
+    width: 0px;
+}
+#seven {
+    height: 0px;
+    width: 0px;
+}
+
+#eight {
+    position: absolute;
+    top: -200px;
+}
+
+#nine {
+    border-radius: 100px;
+}
+
+#endS {
+    position: absolute;
+    bottom: 550px;
+    right: 800px;
+}
+
+#twellwe {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
