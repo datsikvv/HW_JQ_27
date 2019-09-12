@@ -18,6 +18,15 @@ button {
     top: 50px;
 }
 
+#hideQ {
+    left: 460px;
+    top: 50px;
+}
+#showQ {
+    right: 460px;
+    top: 50px;
+}
+
 .top {
     display: flex;
     /* width: 300px; */
